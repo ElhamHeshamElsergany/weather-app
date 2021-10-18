@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <title>know the Weather</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="site-content  ">
+        <div class="site-header w-50 m-auto ">
+            <div class="container d-flex justify-content-between ">
+                <div>
+                    <a href="index.html" class="branding d-flex">
+                        <div class="img">
+                            <img src="image/Weather+Targeting.png" width="50" height="50" class=" logo">
+                        </div>
+                        <div class="two my-3">
+                            <h1 class="sitetitle fs-6 text-light">weather</h1>
+                            <small class="text-white  fs-6">tagline goes here</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-navigation w-50">
+                    <ul class="menu d-flex justify-content-between p-3">
+                        <li class="menu-item text-white">HOME</li>
+                        <li class="menu-item text-white">NEWS</li>
+                        <li class="menu-item text-white">LIVE</li>
+                        <li class="menu-item text-white">PHOTOS</li>
+                        <li class="menu-item text-white">CONTACT US </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- search part -->
+    <div class="container">
+        <form class="find-location ">
+            <input type="text" placeholder="Find your location..." id="search">
+            <input type="button" class="btn-info" value="Find" id="submit">
+        </form>
+    </div>
+
+
+        <div class="forecast-table shadow-lg">
+            <div class="container">
+                <div class="forecast-container" id="forecast">
+
+                </div>
+            </div>
+        </div>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" placeholder="Enter your email to subscribe...">
+                        <input type="submit" class="btn-info" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class=" text-white fs-6">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer> <!-- .site-footer -->
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
